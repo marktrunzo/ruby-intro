@@ -5,7 +5,8 @@
 # Booleans
 
 # Boolean Expressions
-
+number = 5
+puts number == 2
 # If Conditional Logic
 
 # If/Else Conditional Logic
