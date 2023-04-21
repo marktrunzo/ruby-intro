@@ -85,16 +85,16 @@ end
 
 # Without comments for comparison:
 
-# index = 0
-# loop do
-#   if index == tacos.size
-#     break
-#   end
-#   taco = tacos[index]
-#   puts "#{taco} tacos!"
-#   index = index + 1
-# end
+index = 0
+loop do
+  if index == tacos.size
+    break
+  end
+  taco = tacos[index]
+  puts "#{taco} tacos!"
+  index = index + 1
+end
 
-# for taco in tacos
-#   puts "#{taco} tacos!"
-# end
+for taco in tacos
+  puts "#{taco} tacos!"
+end

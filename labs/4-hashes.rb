@@ -29,4 +29,9 @@ bitcoin = gets.chomp
 bitcoin = bitcoin.to_f
 
 # 3. inspect the bitcoin_data hash
-# puts bitcoin_data
+current_price = bitcoin_data["bpi"]["USD"]["rate_float"]
+if bitcoin > 0
+    puts "Your Bitcoin is worth $#{sprintf('%.2f',current_price * bitcoin)}"
+else
+    puts "The future is now, old man"
+end

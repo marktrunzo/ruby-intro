@@ -9,3 +9,9 @@
 
 # Loop through tacos
 # tacos = ["carnitas", "carne asada", "pollo", "pescado"]
+tacos = ["carnitas", "carne asada", "pollo"]
+
+
+for taco in tacos
+    puts "#{taco} tacos!"
+end

@@ -11,6 +11,17 @@
 # sort the result (alphabetically), and write it to the screen.
 # If the two lists contain the same item, only show it once!
 # Lastly, display each item in the list prepended with "buy ".
+my_list = ["milk", "eggs", "bacon"]
+friend_list = ["milk", "cookies", "apples"]
+
+# Combine the two lists, removing duplicates and sorting alphabetically
+shared_list = (my_list + friend_list).uniq.sort
+
+# Display the shared shopping list with "buy " prepended to each item
+shared_list.each do |item|
+  puts "buy #{item}"
+end
+
 
 # HINTS
 # Learn to read the documentation!
